@@ -16,7 +16,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="index.css">
 
   <style>
     .bd-placeholder-img {
@@ -41,10 +41,9 @@
 
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-
-      <a href="#" class="navbar-left navbar-logo"><img src="Images/favicon.ico"></a>
-      <a class="navbar-brand" href="">Zrinščak Usluge</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a href="index.html" class="navbar-left navbar-logo"><img src="Images/favicon.ico"></a>
+      <a class="navbar-brand" href="index.html">Zrinščak Usluge</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -79,13 +78,11 @@
       <!-- Slide 1 -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false">
-            <img class="d-block w-50 images-slides" src="Images/prijevoz.jpg" alt="img-prijevoz">
-            <title> </title>
-            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"> </text>
-          </svg>
+          <img class="d-block w-100 images-slides" src="Images/prijevoz2.jpg" alt="img-prijevoz">
+          <title> </title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"> </text>
           <div class="container">
-            <div class="carousel-caption text-left">
+            <div class="carousel-caption text-right">
               <h1>Prijevoz robe i selidbe</h1>
             </div>
           </div>
@@ -94,15 +91,13 @@
 
         <!-- Slide 2 -->
         <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false">
-            <img class="images-slides" src="Images/sator.jpg" alt="img-sator">
-            <title> </title>
-            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"> </text>
-          </svg>
+          <img class="d-block w-100 images-slides" src="Images/sator.jpg" alt="img-sator">
+          <title> </title>
+          <!-- <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"> </text> -->
 
           <div class="container">
             <div class="carousel-caption">
-              <h1>Najam šatora</h1>
+              <h1 class="najam-satora">Najam šatora</h1>
             </div>
           </div>
         </div>
@@ -110,28 +105,24 @@
 
         <!-- Slide 3 -->
         <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false">
-            <img class="images-slides" src="Images/kosnja.jpg" alt="img-kosnja">
-            <title> </title>
-            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"> </text>
-          </svg>
+          <img class="d-block w-100 images-slides" src="Images/kosnja.jpg" alt="img-kosnja">
+          <title> </title>
+          <!-- <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"> </text> -->
           <div class="container">
             <div class="carousel-caption text-right">
-              <h1>Održavanje dvorišta</h1>
+              <h1 class="uredenje-okucnice">Uređenje okućnice</h1>
             </div>
           </div>
         </div>
 
         <!-- Slide 4 -->
         <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false">
-            <img class="images-slides" src="Images/music.jpg" alt="img-amantes">
-            <title> </title>
-            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"> </text>
-          </svg>
+          <img class="d-block w-100 images-slides" src="Images/music.jpg" alt="img-amantes">
+          <title> </title>
+          <!-- <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"> </text> -->
           <div class="container">
             <div class="carousel-caption text-right">
-              <h1>Glazbene usluge</h1>
+              <h1 class="glazbene-usluge">Glazbene usluge</h1>
             </div>
           </div>
         </div>
@@ -155,17 +146,18 @@
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
+
       <div class="row">
         <div class="col-lg-3">
-          <img class="img-index rounded-circle" width="140" height="140" src="Images/kosnja_cartoon.png" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Uređenje okućnice</title>
+          <img class="img-index rounded-circle" width="140" height="140" src="Images/FullLogo.png" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
           <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
           </img>
 
-          <h2>Uređenje okućnice</h2>
-          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-          <p><a class="btn btn-secondary" href="usluge.html#uredenje-okucnice">Detalji &raquo;</a></p>
-        </div><!-- /.col-lg-1 -->
+          <h2>Prijevoz robe, selidbe</h2>
+          <p>And lastly this, the third column of representative placeholder content.</p>
+          <p><a class="btn btn-secondary" href="usluge.html#usluge-transporta">Detalji &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-3">
           <img class="img-index rounded-circle" width="140" height="140" src="Images/tent_cartoon.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -178,6 +170,18 @@
           <p><a class="btn btn-secondary" href="usluge.html#najam-satora">Detalji &raquo;</a></p>
         </div><!-- /.col-lg-2 -->
 
+
+        <div class="col-lg-3">
+          <img class="img-index rounded-circle" width="140" height="140" src="Images/kosnja_cartoon.png" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Uređenje okućnice</title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+          </img>
+
+          <h2>Uređenje okućnice</h2>
+          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+          <p><a class="btn btn-secondary" href="usluge.html#uredenje-okucnice">Detalji &raquo;</a></p>
+        </div><!-- /.col-lg-1 -->
+
         <div class="col-lg-3">
           <img class="img-index rounded-circle" width="140" height="140" src="Images/band_cartoon.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
           <title>Glazbene usluge</title>
@@ -189,16 +193,6 @@
           <p><a class="btn btn-secondary" href="usluge.html#glazbene-usluge">Detalji &raquo;</a></p>
         </div><!-- /.col-lg-3 -->
 
-        <div class="col-lg-3">
-          <img class="img-index rounded-circle" width="140" height="140" src="Images/delivery_service.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
-          </img>
-
-          <h2>Prijevoz robe, selidbe</h2>
-          <p>And lastly this, the third column of representative placeholder content.</p>
-          <p><a class="btn btn-secondary" href="usluge.html#usluge-transporta">Detalji &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
     </div><!-- /.container -->
 
