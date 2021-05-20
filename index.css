@@ -11,18 +11,21 @@ body {
   text-align: center;
 }
 
+.navbar-logo {
+  padding: 0% 1% 0% 0%;
+}
+
 .container .marketing{
    padding: 2rem 10%
 }
 
-.navbar-logo {
-  padding: 0% 1% 0% 0%;
-}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Since positioning the image, we need to help out the caption */
@@ -41,13 +44,22 @@ body {
   .images-slides {
     height: 15rem;
   }
-}
+  .carousel-text{
+    font-size: 20px;
+    position: absolute;
+  }
 
+}
 
 @media(min-width: 451px) and (max-width:800px) {
   .images-slides {
     height: 25rem;
   }
+
+  .carousel-text{
+    font-size: 35px;
+  }
+
 }
 
 @media(min-width: 801px) {
