@@ -105,21 +105,7 @@ body {
 }
 
 .logo-contact{
-  position: relative;
-  min-width: 150px;
-}
-
-@media(max-width: 450px) {
-  .logo-contact{
-    min-width: 150px;
-  }
-}
-
-@media(min-width: 451px) and (max-width:800px) {
-  .logo-contact{
-    min-width: 250px;
-  }
-
+  width: 75%;
 }
 /* RESPONSIVE CSS
 -------------------------------------------------- */
