@@ -149,3 +149,9 @@ body {
 .jumbotron .container {
   max-width: 40rem;
 }
+
+.galerija-images{
+  height: 225px;
+  width: 100%;
+  object-fit: cover;
+}
