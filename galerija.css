@@ -104,6 +104,22 @@ body {
   color: #fff;
 }
 
+
+.gallery_pics.fullscreen img {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery_pics.fullscreen {
+  z-index: 9999;
+  position: fixed;
+  margin: 0 auto;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
